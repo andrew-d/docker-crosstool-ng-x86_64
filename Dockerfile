@@ -12,3 +12,6 @@ RUN cd $HOME/ct && \
     ct-ng build && \
     cd $HOME && \
     rm -rf ct src
+
+# Switch users back to root for further work
+USER root
